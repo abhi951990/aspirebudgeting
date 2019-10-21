@@ -2,11 +2,13 @@
 This is explained best by [u/Sapphire_Rapids](https://www.reddit.com/user/Sapphire_Rapids/), the creator of the Aspire Budgeting Google Sheet on his website [AspireBudget.com](https://aspirebudget.com/)
 > Aspire is an envelope-style budgeting spreadsheet. Its primary goal is to give you the power and ability to be proactive with your finances - all in a delightfully designed Google Sheet. With Aspire, you can see your budget with just a glance, quickly add transactions as you make them, and run reports to get new insights on your spending.
 
-# Aspire iOS App
-This is an independent project to develop a cleaner mobile interface to interact with the Aspire Google Sheet. The official [Google Sheets](https://apps.apple.com/us/app/google-sheets/id842849113) app while truly powerful does not provide a good experience for a sheet of this kind. 
+# Aspire Android App
+This is an independent project to develop a cleaner mobile interface to interact with the Aspire Google Sheet. The official [Google Sheets](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.sheets) app while truly powerful does not provide a good experience for a sheet of this kind. 
+
+This project's design would be based on [Aspire iOS project](https://github.com/mohitathwani/aspirebudgeting). The goals and phases for this project are similar with the iOS counterpart. 
 
 # Project Goals
-The goal of this project is simple. It is to foster a positive learning environment for myself and others in the field of iOS development. 
+The goal of this project is simple. It is to foster a positive learning environment for anyone in the field of Android development. 
 
 The project should use the latest APIs available and have a clean, simple and a smooth user experience. 
 
@@ -14,10 +16,10 @@ The project will be split up into 4 phases.
 
 ## Phase 1
 
-1. Ability to connect to Google Drive via The Google iOS SDK. 
+1. Ability to connect to Google Drive via The Google Sheets SDK. 
 2. Ability to read data points of interest from the Dashboard tab of the Aspire Sheet. 
-3. Siri Integration. For example, “Hey Siri, how much can I spend on groceries?”
-4. Integration with iOS widgets. 
+3. Google Assistant Integration. For example, “Ok Google, how much can I spend on groceries?”
+4. Integration with Android widgets. 
 5. Fastlane integration for beta deployments, CI/CD, screenshot creation and beta tester sign up sheet. 
 6. No data will be cached in Phase 1. The goal of the next few phases will be to build a solid privacy guideline and strategy. 
 
